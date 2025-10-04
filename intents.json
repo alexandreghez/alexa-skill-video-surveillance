@@ -1,0 +1,43 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "video surveillance",
+            "intents": [
+                {
+                    "name": "OpenCameraByNumberIntent",
+                    "slots": [
+                        {
+                            "name": "numero",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "rang",
+                            "type": "AMAZON.Ordinal"
+                        }
+                    ],
+                    "samples": [
+                        "ouvre vidéo surveillance numéro {numero}",
+                        "vidéo surveillance numéro {numero}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
