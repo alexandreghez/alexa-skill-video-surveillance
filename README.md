@@ -2,12 +2,13 @@
 Skill pour afficher une caméra Home Assistant sur un echo en utilisant APL
 
 Création de cette skill car on quand on affiche des images en APL, cela ne coupe pas la musique.
-Je fais récupere donc des images des cameras a intervalle régulier que j'affiche a une fréquence de 2 images par secondes.
-
+Je récupere donc des images de la camera a intervalle régulier que j'affiche a une fréquence de 2 images par secondes.
 
 Pour fonctionner on précise le jeton longue durée Home assistant et une liste des caméras.
 
 Skin Alexa configuré en Français mais à adapter pour d'autres langues.
+
+N'hésitez pas à adapter le code en fonction de vos besoins (caroussel d'images, vignettes, ...).
 
 Remarques : 
 - La skill s'arrete au bout d'un certain time out mais ne rends pas la main sur l'écho. Il faut donc dire quitter.
