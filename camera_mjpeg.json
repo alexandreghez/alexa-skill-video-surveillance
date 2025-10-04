@@ -1,0 +1,46 @@
+{
+  "type": "APL",
+  "version": "1.4",
+  "mainTemplate": {
+    "items": [
+      {
+        "type": "Container",
+        "width": "100vw",
+        "height": "100vh",
+        "backgroundColor": "#000000",
+        "items": [
+          {
+            "type": "Image",
+            "id": "imageA",
+            "width": "100vw",
+            "height": "100vh",
+            "scale": "best-fill",
+            "position": "absolute",
+            "source": "",
+            "opacity": 1
+          },
+          {
+            "type": "Image",
+            "id": "imageB",
+            "width": "100vw",
+            "height": "100vh",
+            "scale": "best-fill",
+            "position": "absolute",
+            "source": "",
+            "opacity": 0
+          },
+          {
+              "type": "Text",
+              "id": "counterText",
+              "text": "0",
+              "color": "white",
+              "fontSize": "16dp",
+              "position": "absolute",
+              "left": "24dp",
+              "bottom": "24dp"
+            }
+        ]
+      }
+    ]
+  }
+}
